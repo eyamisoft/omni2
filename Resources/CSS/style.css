@@ -212,8 +212,8 @@ input[type=submit]{
 HEADER
 --------------------------------------*/
 header{
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(Images/hero.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Images/hero.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(Imagem/alex-vasey-min.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Imagem/alex-vasey-min.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -229,10 +229,12 @@ header{
     transform: translate(-50%, -50%)
 }
 .logo{
-    height: 100px;
+    height: 50px;
     width: auto;
     float: left;
     margin-top: 20px;
+    color: #e67e22;
+    opacity: 0.5;
 }
 .logo-black{
     display: none;
@@ -240,6 +242,7 @@ header{
     width: auto;
     float: left;
     margin: 5px 0;
+    opacity: 0.8;
 }
 .main-nav{
     float: right;
@@ -310,26 +313,26 @@ margin - specified here again to overide margin on basic setup section above.
 Overflow gets the image inside the container (whatever part that can fit)
 instead of getting bigger than the browser.
 --------------------------------------*/
-.section-meals{
+.section-buildings{
     padding: 0;
 }
 
-.meals-showcase{
+.buildings-showcase{
     width: 100%;
     list-style: none;
 }
-.meals-showcase li{
+.buildings-showcase li{
     display: block;
     float: left;
     width: 25%;
 }
-.meal-photo{
+.buildings{
     width: 100%;
     margin: 0;
     overflow: hidden;
     background: #000;
 }
-.meal-photo img{
+.buildings img{
     opacity: 0.7;
     width: 100%;
     height: auto;
@@ -340,7 +343,7 @@ instead of getting bigger than the browser.
     transition: transform 0.5s, opacity 0.5s;
     transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
 }
-.meal-photo img:hover{
+.buildings img:hover{
     opacity: 1;
     -webkit-transform: scale(1.03);
     transform: scale(1.03);
@@ -367,7 +370,7 @@ Percentages gives a percent of the box.
     margin-top: 70px;
 }
 .app-screen{
-    width: 40%;
+    width: 90%;
 }
 .works-step{
     margin-bottom: 50px;
@@ -430,8 +433,8 @@ Block (display: block) elements enables elements line by themselves.
 If an element is in absolute position, its parent element should be in relative position.
 --------------------------------------*/
 .section-testimonials{
-    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.8)),to(rgba(0, 0, 0, 0.8))),url(images/back-customers.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(images/back-customers.jpg);
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.8)),to(rgba(0, 0, 0, 0.8))),url(Imagem/testimonial-back.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(Imagem/testimonial-back.jpg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
@@ -627,6 +630,3 @@ ANIMATIONS
 .js-w-p-1.animated{
     opacity: 0;
 }
-
-
-
