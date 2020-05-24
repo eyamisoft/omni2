@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/idu5pqddbf6d/repositories/omni1/
-    - /bin/cp * $DEPLOYPATH
