@@ -212,8 +212,8 @@ input[type=submit]{
 HEADER
 --------------------------------------*/
 header{
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(Imagem/alex-vasey-min.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Imagem/alex-vasey-min.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(Images/alex-vasey-min.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Images/alex-vasey-min.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -433,8 +433,8 @@ Block (display: block) elements enables elements line by themselves.
 If an element is in absolute position, its parent element should be in relative position.
 --------------------------------------*/
 .section-testimonials{
-    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.8)),to(rgba(0, 0, 0, 0.8))),url(Imagem/testimonial-back.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(Imagem/testimonial-back.jpg);
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.8)),to(rgba(0, 0, 0, 0.8))),url(Images/testimonial-back.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(Images/testimonial-back.jpg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
