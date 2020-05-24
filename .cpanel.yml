@@ -1,6 +1,10 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/idu5pqddbf6d/pmictest.com
+
+    - export DEPLOYPATH=/home/idu5pqddbf6d/repositories/omni2/
+
+    - export DEPLOYPATH=/home/idu5pqddbf6d/repositories/omni2/
+
     - /bin/cp * $DEPLOYPATH
    
