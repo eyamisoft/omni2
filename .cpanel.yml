@@ -3,5 +3,8 @@ deployment:
     tasks:
     - export DEPLOYPATH=/home/idu5pqddbf6d/public_html/
     - /bin/cp * DEPLOYPATH
+    - name: SonarQube Shellcheck
+      uses: sunilagarwal22/sonarscanner-shell@2.0
+
     
     
